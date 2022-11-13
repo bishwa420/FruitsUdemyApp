@@ -17,6 +17,10 @@
 		47BD0CDF291FCD6200104FF7 /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BD0CDE291FCD6200104FF7 /* FruitModel.swift */; };
 		47BD0CE1291FCE0000104FF7 /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BD0CE0291FCE0000104FF7 /* FruitData.swift */; };
 		47BD0CE3292119E600104FF7 /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BD0CE2292119E600104FF7 /* FruitRowView.swift */; };
+		47BD0CE5292122FF00104FF7 /* FruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BD0CE4292122FF00104FF7 /* FruitDetailView.swift */; };
+		47BD0CE72921272900104FF7 /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BD0CE62921272900104FF7 /* FruitHeaderView.swift */; };
+		47BD0CE929212B3C00104FF7 /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BD0CE829212B3C00104FF7 /* SourceLinkView.swift */; };
+		47BD0CEB29212D6200104FF7 /* FruitNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BD0CEA29212D6200104FF7 /* FruitNutrientsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,10 @@
 		47BD0CDE291FCD6200104FF7 /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
 		47BD0CE0291FCE0000104FF7 /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
 		47BD0CE2292119E600104FF7 /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
+		47BD0CE4292122FF00104FF7 /* FruitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailView.swift; sourceTree = "<group>"; };
+		47BD0CE62921272900104FF7 /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
+		47BD0CE829212B3C00104FF7 /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
+		47BD0CEA29212D6200104FF7 /* FruitNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +95,7 @@
 				47BD0CC6291F572F00104FF7 /* FruitsUdemyAppApp.swift */,
 				47BD0CC8291F572F00104FF7 /* ContentView.swift */,
 				47BD0CDA291F66DB00104FF7 /* OnboardingView.swift */,
+				47BD0CE4292122FF00104FF7 /* FruitDetailView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -97,6 +106,9 @@
 				47BD0CD6291F5D9D00104FF7 /* FruitCardView.swift */,
 				47BD0CD8291F62A400104FF7 /* StartButtonView.swift */,
 				47BD0CE2292119E600104FF7 /* FruitRowView.swift */,
+				47BD0CE62921272900104FF7 /* FruitHeaderView.swift */,
+				47BD0CE829212B3C00104FF7 /* SourceLinkView.swift */,
+				47BD0CEA29212D6200104FF7 /* FruitNutrientsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -188,10 +200,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				47BD0CE1291FCE0000104FF7 /* FruitData.swift in Sources */,
+				47BD0CE929212B3C00104FF7 /* SourceLinkView.swift in Sources */,
 				47BD0CD7291F5D9D00104FF7 /* FruitCardView.swift in Sources */,
 				47BD0CE3292119E600104FF7 /* FruitRowView.swift in Sources */,
+				47BD0CEB29212D6200104FF7 /* FruitNutrientsView.swift in Sources */,
 				47BD0CD9291F62A400104FF7 /* StartButtonView.swift in Sources */,
+				47BD0CE5292122FF00104FF7 /* FruitDetailView.swift in Sources */,
 				47BD0CC9291F572F00104FF7 /* ContentView.swift in Sources */,
+				47BD0CE72921272900104FF7 /* FruitHeaderView.swift in Sources */,
 				47BD0CDB291F66DB00104FF7 /* OnboardingView.swift in Sources */,
 				47BD0CDF291FCD6200104FF7 /* FruitModel.swift in Sources */,
 				47BD0CC7291F572F00104FF7 /* FruitsUdemyAppApp.swift in Sources */,
