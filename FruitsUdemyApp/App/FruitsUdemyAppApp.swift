@@ -9,12 +9,11 @@ import SwiftUI
 
 @main
 struct FruitsUdemyAppApp: App {
-    
-    @AppStorage("inOnboarding") var isOnboarding: Bool = true
-    
+    @AppStorage("isOnboarding") var isOnboarding: Bool = true
+
     var body: some Scene {
         WindowGroup {
-            if(isOnboarding) {
+            if isOnboarding {
                 OnboardingView()
             } else {
                 ContentView()

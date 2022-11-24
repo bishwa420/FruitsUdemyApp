@@ -9,8 +9,8 @@ import SwiftUI
 
 struct StartButtonView: View {
     // PROPERTIES
-    @AppStorage("inOnboarding") var isOnboarding: Bool?
-    
+    @AppStorage("isOnboarding") var isOnboarding: Bool?
+
     // BODY
     var body: some View {
         Button(action: {
@@ -18,7 +18,7 @@ struct StartButtonView: View {
         }) {
             HStack(spacing: 8) {
                 Text("Start")
-                
+
                 Image(systemName: "arrow.right.circle")
                     .imageScale(.large)
             } //: HSTACK
@@ -27,7 +27,6 @@ struct StartButtonView: View {
             .background(Capsule().strokeBorder(.white, lineWidth: 1.25))
         } //: Button
         .accentColor(.white)
-        
     }
 }
 
