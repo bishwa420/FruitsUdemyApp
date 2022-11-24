@@ -23,6 +23,7 @@
 		47BD0CEB29212D6200104FF7 /* FruitNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BD0CEA29212D6200104FF7 /* FruitNutrientsView.swift */; };
 		47BD0CED292D25BD00104FF7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BD0CEC292D25BD00104FF7 /* SettingsView.swift */; };
 		47BD0CEF292D3DB000104FF7 /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BD0CEE292D3DB000104FF7 /* SettingsLabelView.swift */; };
+		47BD0CF1292FC5BA00104FF7 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BD0CF0292FC5BA00104FF7 /* SettingsRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		47BD0CEA29212D6200104FF7 /* FruitNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientsView.swift; sourceTree = "<group>"; };
 		47BD0CEC292D25BD00104FF7 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = FruitsUdemyApp/Views/SettingsView.swift; sourceTree = SOURCE_ROOT; };
 		47BD0CEE292D3DB000104FF7 /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
+		47BD0CF0292FC5BA00104FF7 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				47BD0CE829212B3C00104FF7 /* SourceLinkView.swift */,
 				47BD0CEA29212D6200104FF7 /* FruitNutrientsView.swift */,
 				47BD0CEE292D3DB000104FF7 /* SettingsLabelView.swift */,
+				47BD0CF0292FC5BA00104FF7 /* SettingsRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 			files = (
 				47BD0CE1291FCE0000104FF7 /* FruitData.swift in Sources */,
 				47BD0CE929212B3C00104FF7 /* SourceLinkView.swift in Sources */,
+				47BD0CF1292FC5BA00104FF7 /* SettingsRowView.swift in Sources */,
 				47BD0CD7291F5D9D00104FF7 /* FruitCardView.swift in Sources */,
 				47BD0CE3292119E600104FF7 /* FruitRowView.swift in Sources */,
 				47BD0CEB29212D6200104FF7 /* FruitNutrientsView.swift in Sources */,
